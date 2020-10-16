@@ -9,10 +9,10 @@ Customize labels, environment names and colors.
 ## Installation
 
 ```bash
-composer require joriswvanrijn/environment-label:1.0.0 --dev
+composer require joriswvanrijn/environment-label --dev
 
 # or if you want a label in staging as well:
-composer require joriswvanrijn/environment-label:1.0.0
+composer require joriswvanrijn/environment-label
 ```
 
 ![Example](https://user-images.githubusercontent.com/63727247/90332298-f75a7380-dfbb-11ea-8d0d-7cb43e5091a0.png)
