@@ -30,7 +30,7 @@ class EnvironmentLabel
         $content = $response->getContent();
 
         $env = [
-            'show' > true,
+            'show' => true,
             'name' => App::environment(),
             'text_color' => '#333',
             'background_color' => '#808e9b',
