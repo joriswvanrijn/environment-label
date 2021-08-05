@@ -1,28 +1,28 @@
 {
-    "version": "1.2.0",
-    "name": "joriswvanrijn/environment-label",
-    "description": "Which environment am I seeing? A simple bar to easily distinguish local, development, staging and production environments.",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Joris W. van Rijn",
-            "email": "hi@joriswvanrijn.com"
-        }
-    ],
-    "require": {
-        "php": "^7.1.3|^8.0",
-        "laravel/framework": "^5.8|^6|^7|^8"
-    },
-    "autoload": {
-        "psr-4": {
-            "joriswvanrijn\\EnvironmentLabel\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "joriswvanrijn\\EnvironmentLabel\\EnvironmentLabelServiceProvider"
-            ]
-        }
+  "version": "1.2.1",
+  "name": "joriswvanrijn/environment-label",
+  "description": "Which environment am I seeing? A simple bar to easily distinguish local, development, staging and production environments.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joris W. van Rijn",
+      "email": "hi@joriswvanrijn.com"
     }
+  ],
+  "require": {
+    "php": "^7.1.3|^8.0",
+    "laravel/framework": "^5.8|^6|^7|^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "joriswvanrijn\\EnvironmentLabel\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "joriswvanrijn\\EnvironmentLabel\\EnvironmentLabelServiceProvider"
+      ]
+    }
+  }
 }
